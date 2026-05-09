@@ -1,0 +1,58 @@
+.DS_Store
+Thumbs.db
+
+# Python/Jupyter cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.env
+.env.*
+.venv/
+venv/
+env/
+.conda/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Keep folder docs, ignore heavy or licensed datasets by default.
+data/raw/*
+!data/raw/README.md
+data/interim/*
+!data/interim/README.md
+data/processed/*
+!data/processed/README.md
+data/external/*
+!data/external/README.md
+
+# Notebook-local input/output folders often contain source data or generated files.
+**/input/*
+!**/input/README.md
+**/output/*
+!**/output/README.md
+outputs/*
+!outputs/README.md
+
+# Large tabular/binary research artifacts should be shared separately unless sampled.
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.xlsm
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+
+# Team/internal report artifacts require separate publication review.
+제안서&운용보고서/**/*.pptx
+제안서&운용보고서/**/*.pdf
+제안서&운용보고서/**/*.docx
+
+# Empty local scratch file.
+전략_notebook/04_검색량데이터_전략/삼성전자_회귀베타계산
