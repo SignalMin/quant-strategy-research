@@ -52,16 +52,6 @@
 
 자세한 노트북별 요약은 [docs/notebook_index.md](docs/notebook_index.md)에 정리했습니다.
 
-## 실행 환경
-
-Python 3.10 이상을 권장합니다.
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-jupyter lab
-```
 
 ## 데이터 정책
 
@@ -73,14 +63,6 @@ jupyter lab
 
 데이터를 직접 준비할 경우 `data/raw/` 또는 각 노트북의 `input/` 폴더에 배치한 뒤 실행합니다. 현재 일부 노트북에는 기존 로컬 환경 기준의 절대경로가 남아 있으므로, 재실행 전 상대경로로 수정해야 합니다.
 
-## 보고서 공개 정책
-
-`제안서&운용보고서/` 안의 PPT, PDF, DOCX 파일은 팀 프로젝트 산출물이므로 기본적으로 커밋 대상에서 제외했습니다. 공개 가능한 파일인지 확인한 뒤, 필요한 파일만 별도로 추가하는 방식을 권장합니다.
-
-## 공개 전 체크리스트
-
-GitHub 업로드 전 [docs/github_upload_checklist.md](docs/github_upload_checklist.md)를 확인합니다. 특히 `data/raw`, `*.csv`, `*.xlsx`, `.env`, `.venv`, `.ipynb_checkpoints`는 커밋하지 않는 것을 기본 정책으로 둡니다.
-
 ## 기술 스택
 
 - Python
@@ -89,11 +71,3 @@ GitHub 업로드 전 [docs/github_upload_checklist.md](docs/github_upload_checkl
 - statsmodels
 - joblib, tqdm
 - Jupyter Notebook
-
-## 포트폴리오 관점에서 보여줄 수 있는 역량
-
-- 금융 데이터 전처리와 시계열 패널 구성
-- 팩터 정의, 포트폴리오 구성, 리밸런싱 로직 구현
-- 성과 지표 계산과 벤치마크 비교
-- 회귀분석, 롤링 회귀, 팩터 중립 검증
-- 분석 결과를 투자 제안서/운용보고서로 연결
