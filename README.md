@@ -26,7 +26,7 @@
 │   └── github_upload_checklist.md
 ├── outputs/          
 ├── 전략_notebook/
-│   ├── 01_고배당_저DPS변화율_전략/
+│   ├── 01_저변동_고배당주_ETF_운용/
 │   ├── 02_PBR_ROE_전략/
 │   ├── 03_VIP_score_전략/
 │   ├── 04_검색량데이터_전략/
@@ -40,7 +40,7 @@
 
 | 구분 | 전략 | 주요 아이디어 | 노트북 |
 | --- | --- | --- | --- |
-| 01 | 고배당 + 저 DPS 변화율 | 배당 관련 지표와 변동성 필터를 활용한 포트폴리오 구성 | [고배당전략_DPS변화율필터.ipynb](전략_notebook/01_고배당_저DPS변화율_전략/고배당전략_DPS변화율필터.ipynb) |
+| 01 | 저변동 고배당 ETF 운용 | 유동성, 배당상위, 배당안정성, 저 IVOL 필터를 결합한 ETF 운용형 포트폴리오 | [저변동_고배당주_etf운용.ipynb](전략_notebook/01_저변동_고배당주_ETF_운용/저변동_고배당주_etf운용.ipynb) |
 | 02 | PBR + ROE | 저 PBR과 고 ROE를 결합한 소형주 중심 밸류/퀄리티 전략 | [pbr+roe_new.ipynb](전략_notebook/02_PBR_ROE_전략/pbr+roe_new.ipynb) |
 | 03 | VIP Score | Value, Investment, Profitability 요소를 결합한 종합 점수 전략 | [VIP_Score.ipynb](전략_notebook/03_VIP_score_전략/VIP_Score.ipynb) |
 | 04 | 검색량 데이터 | 검색량 지표의 계절성을 제거한 ASVI와 배당 포트폴리오/회귀분석 | [Empirical Analysis.ipynb](전략_notebook/04_검색량데이터_전략/Empirical%20Analysis.ipynb) |
