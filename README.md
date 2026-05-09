@@ -1,8 +1,6 @@
-# Quantifi Research
+# Quant Research
 
 국내 주식 데이터를 활용해 퀀트 투자 아이디어를 실증 분석하고 백테스트한 리서치 노트북 모음입니다. 고배당, 밸류/퀄리티, 검색량 기반 관심도, 베타/레짐, Amihud 비유동성 팩터를 중심으로 전략을 설계하고 성과를 검증했습니다.
-
-> 이 저장소는 취업 포트폴리오 공개를 전제로 정리한 버전입니다. 원천 데이터는 용량과 라이선스 이슈로 GitHub에 포함하지 않습니다.
 
 ## 핵심 내용
 
@@ -26,7 +24,7 @@
 ├── docs/
 │   ├── notebook_index.md
 │   └── github_upload_checklist.md
-├── outputs/          # 공개 가능한 결과물 설명만 보관
+├── outputs/          
 ├── 전략_notebook/
 │   ├── 01_고배당_저DPS변화율_전략/
 │   ├── 02_PBR_ROE_전략/
@@ -50,18 +48,7 @@
 | 06 | Value-Quality 동적 배분 | 레짐 기반 Value/Quality 포트폴리오 배분과 벤치마크 비교 | [Value_quality_레짐동적배분.ipynb](전략_notebook/06_Value_Quality_전략/Value_quality_레짐동적배분.ipynb) |
 | 07 | Amihud 비유동성 | Amihud illiquidity 팩터와 평균 기간/리밸런싱 조합 비교 | [07_Amihud_전략](전략_notebook/07_Amihud_전략) |
 
-자세한 노트북별 요약은 [docs/notebook_index.md](docs/notebook_index.md)에 정리했습니다.
 
-
-## 데이터 정책
-
-이 저장소의 원천 데이터는 대부분 한국 주식 가격/재무/거래대금 데이터입니다. 공개 GitHub에는 다음 이유로 포함하지 않습니다.
-
-- 파일 용량이 큼
-- 데이터 제공처 라이선스 확인 필요
-- 재현용 샘플과 원천 데이터의 역할을 분리하는 편이 안전함
-
-데이터를 직접 준비할 경우 `data/raw/` 또는 각 노트북의 `input/` 폴더에 배치한 뒤 실행합니다. 현재 일부 노트북에는 기존 로컬 환경 기준의 절대경로가 남아 있으므로, 재실행 전 상대경로로 수정해야 합니다.
 
 ## 기술 스택
 
